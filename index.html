@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script type="text/javascript" src="../Counter Project/index.js"></script>
+        <div class="main">
+            <div class="container">
+                <div class="box">
+                    <h3 id="home">Home</h3>
+                    <div class="score-section">
+                        <p id="score-home">0</p>
+                    </div>
+                    <div class="inc-section">
+                        <button class="hover" onclick="leftInc1()">+1</button>
+                        <button class="hover" onclick="leftInc2()">+2</button>
+                        <button class="hover" onclick="leftInc3()">+3</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 id="guest">Guest</h3>
+                    <div class="score-section">
+                        <p id="score-guest">0</p>
+                    </div>
+                    <div class="inc-section">
+                        <button class="hover" onclick="rightInc1()">+1</button>
+                        <button class="hover" onclick="rightInc2()">+2</button>
+                        <button class="hover" onclick="rightInc3()">+3</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="new-game">
+                <button id="new-game-btn" onclick="restart()">New Game</button>
+            </div>
+        </div>
+</body>
+</html>
